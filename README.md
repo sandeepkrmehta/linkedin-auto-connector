@@ -4,7 +4,7 @@ This document contains an assignment for a ReactJS intern role, where the task i
 
 ## Objective
 
-Create a Chrome Extension that automates connection requests on LinkedIn using React and the wxt.dev framework.
+Create a Chrome Extension that automates connection requests on LinkedIn using React and the **wxt.dev** framework.
 
 ## Assignment Overview
 
@@ -38,8 +38,22 @@ Create a Chrome Extension that automates connection requests on LinkedIn using R
 
 ## Getting Started
 
-To get started with the project, clone the repository:
+To get started with the project, clone the repository and set up the project:
 
 ```bash
-git remote add origin https://github.com/sandeepkrmehta/sandeepkrmehta-linkedin-auto-connector.git
+# Clone the Repository
+git clone https://github.com/sandeepkrmehta/sandeepkrmehta-linkedin-auto-connector.git
 
+# Navigate to the Project Directory
+cd linkedin-auto-connector
+
+# Install Dependencies
+npm install
+
+# Build the Extension
+npm run build
+
+# Load the Extension in Chrome
+# Open Chrome and go to chrome://extensions/
+# Enable "Developer mode"
+# Click on "Load unpacked" and select the build folder
